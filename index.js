@@ -9,7 +9,7 @@ function useRovingFocus(listSize) {
   }, [listSize]);
 
   const handleKeyDown = useCallback(
-    (e: any) => {
+    (e) => {
       if (e.keyCode === 40) {
         // Down arrow
         e.preventDefault();
